@@ -60,7 +60,7 @@ public class Stock {
 //		System.out.println(Arrays.toString(prices));
 //		System.out.println(Arrays.toString(upDownPercentage));
 
-		return nameId;
+		return nameId + " \t\t: " + closingPrice;
 	}
 
 }

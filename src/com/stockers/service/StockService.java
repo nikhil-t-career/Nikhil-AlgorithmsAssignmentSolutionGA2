@@ -39,7 +39,7 @@ public abstract class StockService {
 				
 				int index = 0; 
 				while ((line = br.readLine()) != null) {
-					System.out.println("\nline - " + line);
+					System.out.println("\nRead - " + line);
 					String[] stockDetails = line.split(",");
 					stock = new Stock();//Refer for setting fields
 					
