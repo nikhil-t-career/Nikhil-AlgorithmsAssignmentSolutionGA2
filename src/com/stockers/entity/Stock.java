@@ -15,7 +15,7 @@ public class Stock {
 	}
 
 	public void setNameId(String nameId) {
-		this.nameId = nameId;
+		this.nameId = nameId.trim().toUpperCase();
 	}
 
 	public float getClosingPrice() {
