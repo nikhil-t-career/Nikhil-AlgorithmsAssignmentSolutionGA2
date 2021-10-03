@@ -43,7 +43,7 @@ public abstract class StockService {
 					String[] stockDetails = line.split(",");
 					stock = new Stock();//Refer for setting fields
 					
-					stock.setNameId(stockDetails[0]);
+					stock.setNameId(stockDetails[0].trim().toUpperCase());
 					stock.setClosingPrice(Float.valueOf(stockDetails[1]));
 					float[] prices = new float[5];
 					

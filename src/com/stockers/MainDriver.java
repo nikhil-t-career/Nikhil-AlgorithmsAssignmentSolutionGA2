@@ -83,7 +83,7 @@ public class MainDriver {
 		System.out.println("\n\n" + menuI++
 				+ ")Total number of Stocks that decreased compared to the Day provided by user : " + countDowns);
 
-		System.out.print("\n\n" + menuI++ + ")Please enter Name of the Stock to Search : ");
+		System.out.print("\n\n" + menuI++ + ")Please enter Name of the Stock to Search(Binary Search) : ");
 		String stockToSearch = sca.next();
 
 		int result = BinarySearchUtil.binarySearch(stocksSortedByName, 0, stocksSortedByName.length - 1,
